@@ -46,7 +46,7 @@ code that adheres to the specified language syntax.
 For each input file, the assembler generates the following output files:
 
 - ```.am ``` file: Contains the input file after macro expansion.
--``` .ob``` file: The object file that includes the compiled machine code.
+- ``` .ob``` file: The object file that includes the compiled machine code.
 - ```.ent``` file: Lists the entry points defined in the assembly code (if any).
 - ```.ext``` file: Details external references used in the assembly code (if any).
 
