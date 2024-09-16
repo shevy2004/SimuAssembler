@@ -1,7 +1,7 @@
 # Assembler Project
-Overview The Assembler Project is a tool designed to simplify the process of 
-assembling code written in a custom assembly-like language.This project offers
-features for encoding instructions, handling parameters, and more.
+The Assembler Project is a tool designed to simplify the process of assembling code written in a
+custom assembly-like language. It facilitates encoding instructions, handling parameters, and
+managing various aspects of assembly code.
 
 ## Features
 Instruction Encoding: Implement an efficient encoding mechanism for assembly instructions 
