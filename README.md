@@ -24,13 +24,15 @@ precise instruction processing and facilitate effective troubleshooting througho
 ## Build the Project
 To build the project, use the provided Makefile:
 ```
-MAKE
+make
 ```
 This will compile all the necessary files and create the shevy.as executable.
 
 ## Running the Project
 To run the project, use the following command:
-./run file1 file2 ... fileN 
+```
+./run file1 file2 ... fileN
+```
 Important Note on File Names:
 
 When specifying input files, omit the .as suffix. The assembler will automatically
@@ -43,10 +45,10 @@ code that adheres to the specified language syntax.
 ## Output Files
 For each input file, the assembler generates the following output files:
 
-- .am file: Contains the input file after macro expansion.
-- .ob file: The object file that includes the compiled machine code.
-- .ent file: Lists the entry points defined in the assembly code (if any).
-- .ext file: Details external references used in the assembly code (if any).
+- ```.am ``` file: Contains the input file after macro expansion.
+-``` .ob``` file: The object file that includes the compiled machine code.
+- ```.ent``` file: Lists the entry points defined in the assembly code (if any).
+- ```.ext``` file: Details external references used in the assembly code (if any).
 
 ## Binary Translation Process
 - During the assembly process, each instruction in the source code is
