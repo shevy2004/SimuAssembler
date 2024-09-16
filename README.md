@@ -42,22 +42,22 @@ code that adheres to the specified language syntax.
 ## Output Files
 For each input file, the assembler generates the following output files:
 
-.am file: Contains the input file after macro expansion.
-.ob file: The object file that includes the compiled machine code.
-.ent file: Lists the entry points defined in the assembly code (if any).
-.ext file: Details external references used in the assembly code (if any).
+- .am file: Contains the input file after macro expansion.
+- .ob file: The object file that includes the compiled machine code.
+- .ent file: Lists the entry points defined in the assembly code (if any).
+- .ext file: Details external references used in the assembly code (if any).
 
 ## Binary Translation Process
 - During the assembly process, each instruction in the source code is
 converted into binary machine code through the following steps:
 
--Instruction Encoding: Each instruction is transformed into binary, with both the operation 
+- Instruction Encoding: Each instruction is transformed into binary, with both the operation 
 code (opcode) and operands encoded based on the chosen addressing mode (e.g., immediate, direct, or indirect).
 
--Label Resolution: Operands that are labels are replaced with their respective memory
+- Label Resolution: Operands that are labels are replaced with their respective memory
 addresses from the symbol table. External references are noted and marked in the binary output.
 
--A, R, E Fields: Each binary word includes A, R, and E fields to facilitate proper linkage and loading
+- A, R, E Fields: Each binary word includes A, R, and E fields to facilitate proper linkage and loading
 of the machine code.
 
 ## Error Handling
