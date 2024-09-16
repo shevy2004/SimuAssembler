@@ -23,7 +23,9 @@ precise instruction processing and facilitate effective troubleshooting througho
 
 ## Build the Project
 To build the project, use the provided Makefile:
-< make
+```
+MAKE
+```
 This will compile all the necessary files and create the shevy.as executable.
 
 ## Running the Project
